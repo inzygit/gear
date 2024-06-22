@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #main {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        img{
+            height:300px;
+            width: 300px;
+        }
+
+        #main div {
+
+            flex-grow: 1;
+            flex-shrink: 1;
+            flex-basis: 300px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>The flex-wrap Property</h1>
+
+    <div id="main">
+        <div style="background-color:coral;"><img src="./kvis.jpg"/></div>
+        <div style="background-color:coral;"><img src="./login360.png"/></div>
+        <div style="background-color:coral;"><img src="./maharaja.png"/></div>
+        <div style="background-color:coral;"><img src="./otto.png"/></div>
+        <div style="background-color:coral;"><img src="./pran.jpg"/></div>
+        <div style="background-color:coral;"><img src="./mafoi-logo.png"/></div>
+        <div style="background-color:coral;"><img src="./maharaja.png"/></div>
+        
+
+    <p><b>Note:</b> Internet Explorer 10 and earlier versions do not support the flex-wrap property.</p>
+
+</body>
+
+</html>
+
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+#main {
+  width: 350px;
+  height: 100px;
+  border: 1px solid #c3c3c3;
+  display: flex;
+}
+
+#main div:nth-of-type(1) {flex-grow: 1;}
+#main div:nth-of-type(2) {flex-grow: 3;}
+#main div:nth-of-type(3) {flex-grow: 1;}
+#main div:nth-of-type(4) {flex-grow: 1;}
+#main div:nth-of-type(5) {flex-grow: 1;}
+</style>
+</head>
+<body>
+
+<h1>The flex-grow Property</h1>
+
+<div id="main">
+  <div style="background-color:coral;"></div>
+  <div style="background-color:lightblue;"></div>
+  <div style="background-color:khaki;"></div>
+  <div style="background-color:pink;"></div>
+  <div style="background-color:lightgrey;"></div>
+</div>
+
+<p><b>Note:</b> Internet Explorer 10 and earlier versions do not support the flex-grow property.</p>
+
+</body>
+</html> -->
